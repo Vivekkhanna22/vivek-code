@@ -108,8 +108,6 @@
     "- Append `lemmatized_tokens` into the list called **Text**\n",
     "- Convert `Counter(lemmatized_tokens)` into dictionary and save it in a variable called `BoW_dict`.\n",
     "- Sort `BoW_dict` in descending order using `sorted()` function with the parameters `BoW_dict.items()`, `key=operator.itemgetter(1)`, `reverse=True`. Store it in a variable called `sorted_d`\n",
-    "- Finally append them into the list called **Texts** \n",
-    "- Print `Texts` to check out the list of words with their frequency in descending order.\n",
     "- Print Top 10 words from the `Texts`"
    ]
   },
